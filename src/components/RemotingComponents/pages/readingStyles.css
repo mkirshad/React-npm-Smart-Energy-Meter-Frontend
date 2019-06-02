@@ -1,0 +1,176 @@
+.meter-reading {
+  font-size: 15px;
+}
+.meter-reading b {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.meter-search .search-results {
+  width: 100%;
+  height: 100%;
+  
+  overflow-y: auto;
+}
+
+.meter-search .search-results ul {
+  list-style-type: none;
+  margin: 10px 0 0 2px;
+  padding: 0;
+}
+
+.meter-search .search-results ul li {
+  cursor: pointer;
+  font-size: 15px;
+  margin: 3px 0 3px 0;
+}
+
+.meter-search .search-results ul li:hover {
+  color: #2980b9;
+  font-weight: 500;
+}
+
+
+.active-search-item {
+  font-weight: 600;
+}
+
+.check-clickable .ant-select-tree-node-content-wrapper{
+  pointer-events: visible !important;
+
+}
+
+.check-disable .ant-select-tree-node-content-wrapper{
+  pointer-events: none !important;
+
+}
+
+.active-meter-item .ant-select-tree-node-content-wrapper{
+  
+  color:green !important;
+  pointer-events: visible !important;
+  
+}
+
+.active-meter-item-offline .ant-select-tree-node-content-wrapper{
+  pointer-events: visible !important;
+  
+}
+
+
+#analysis-raw-data .ant-select-arrow {
+  display: unset !important;
+}
+
+
+/*  vvvimp never miss it  */
+.single-search {
+  display: unset !important;
+}
+
+
+
+/*
+.ant-select-dropdown-hidden {
+  display: unset !important;
+}
+
+*/
+
+#remoting-data .ant-select-arrow{
+  display: none !important
+}
+
+/*
+.ant-modal-footer{
+  display: none !important
+
+}
+*/
+
+/*
+
+.check-clickable .ant-select-tree-node-content-wrapper{
+  pointer-events: visible !important;
+
+}
+
+.check-disable .ant-select-tree-node-content-wrapper{
+  pointer-events: none !important;
+
+}
+*/
+
+.text-box{
+  /*width: 90%;      prev is 90& bur now no need to include it and it's better*/
+  font-weight: 500
+}
+
+.ant-select{
+  width: 100% !important;
+
+}
+
+/*ul .ant-select-tree::after { 
+  content: "Chapter: ";
+  display: inline;
+}*/
+
+
+/*.active-meter-item span.ant-select-tree-switcher.ant-select-tree-switcher-noop { //expand icon
+  
+  background-color: green; 
+}
+*/
+
+.custom-h2 {
+  border-bottom-color: #f4f4f4 !important;
+  position: relative;
+  margin: 0 0 20px;
+  height: 30px ;
+  font-weight: 300;
+  font-size: 20px;
+  border-bottom: none !important;
+  /*width: 50%;*/
+}
+
+.custom-h2 span {
+  display: inline-table;
+  height: 30px;
+  border-bottom: 1px solid;
+  border-bottom-color: #007cc3;
+}
+
+
+
+/* ------------------------------------   */
+
+.group_checkbox {
+  margin: 0;
+  padding: 0;    
+  border: 2px transparent solid;
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+.group_checkbox label{
+  display: block;
+  border: thin transparent solid;
+  margin-left: 18px;
+}  
+.group_checkbox:hover,
+label:hover {
+  border-color: #777;
+}
+
+.group_checkbox.focus,
+label.focus {
+  border-color: black;
+}
+
+#ex1, #ex2, #ex3 {
+  background-color: #F1F1F1 ;
+  padding:10px;
+}
+fieldset {
+  border-style: none;
+}

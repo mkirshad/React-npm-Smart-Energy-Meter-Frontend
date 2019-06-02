@@ -1,0 +1,75 @@
+.floating-nav {
+  background: white;
+}
+
+.floating-nav .f-nav-content {
+  margin-top: 65px;
+  padding: 0;
+}
+
+.floating-nav .f-nav-content ul {
+  list-style: none;
+  width: 100%;
+  height: 100px;
+  margin: -55px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.floating-nav .f-nav-content ul li {
+  float: left;
+  width: 12.5%;
+  border-right: 1px solid #eee;
+}
+
+.floating-nav-dashboard .f-nav-content-dashboard ul li {
+  float: left;
+  width: 14.28%;
+  border-right: 1px solid #eee;
+}
+
+.floating-nav .f-nav-content ul li .active {
+  color: royalblue !important;
+}
+
+.floating-nav .f-nav-content ul li .nav-link div {
+  margin-top: 8px;
+}
+
+.floating-nav .f-nav-content ul li .nav-link:hover {
+  color: royalblue !important;
+}
+
+.floating-nav .f-nav-content ul li .nav-link {
+  display: block;
+  padding: 25px 0;
+  color: #22262e;
+  text-decoration: none;
+}
+
+a.side-nav-active {
+  background: #2980b9;
+}
+
+.sidebar-nav ul>li>a:hover, .sidebar-nav ul>li.active>a {
+  background: #3498db;
+}
+
+.pane {
+  margin: 0 5px 20px 5px;
+  height: 0% !important;  /*  vvvimp for height issue recently */
+}
+
+.pane-custom {
+  margin: 0 5px 20px 5px;
+  height: 400px;
+}
+
+.pane-h2 {
+  border-bottom-color: #007cc3 !important;
+  display: inline-table;
+  height: 30px;
+  border-bottom: 1px solid;
+  font-weight: 300;
+  font-size: 20px;
+}
